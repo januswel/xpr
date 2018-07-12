@@ -18,5 +18,8 @@
     "flow-typed": "2.5.1",
     "jest": "23.4.0",
     "prettier": "1.13.7"
+  },
+  "dependencies": {
+    "cac": "5.0.10"
   }
 }
