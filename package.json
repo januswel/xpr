@@ -2,14 +2,26 @@
   "name": "xpr",
   "version": "1.0.0",
   "description": "random string generator",
+  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "generator",
+    "password"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/januswel/xpr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/januswel/xpr/issues"
+  },
+  "homepage": "https://github.com/januswel/dic/cli#readme",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "exec": "babel-node ./index.js",
     "type-check": "flow"
   },
-  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.7.0",
