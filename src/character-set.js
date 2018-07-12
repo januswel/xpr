@@ -1,0 +1,15 @@
+// @flow
+
+const CHARACTERS = {
+  UPPER_CASES: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+  LOWER_CASES: 'abcdefghijklmnopqrstuvwxyz',
+  NUMBERS: '12345678990',
+}
+
+const CHARACTER_SET = ''.concat(
+  CHARACTERS.UPPER_CASES,
+  CHARACTERS.LOWER_CASES,
+  CHARACTERS.NUMBERS,
+)
+
+export default CHARACTER_SET

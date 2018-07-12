@@ -1,0 +1,17 @@
+{
+  "name": "xpr",
+  "version": "1.0.0",
+  "description": "random string generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exec": "babel-node ./index.js"
+  },
+  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-flow": "6.23.0"
+  }
+}
